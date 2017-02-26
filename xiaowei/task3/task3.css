@@ -1,0 +1,46 @@
+
+body{margin:20px;}
+.frame{
+     padding:20px;
+     background-color: #eee;
+     min-height:500px;
+}
+.frame,.right,.left,.center{
+	border:1px solid #999;
+}
+
+.left{
+	position: relative;
+	float: left;
+	width:160px;
+    padding:20px;
+    background-color: white;
+}
+.left span{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+img{
+	width:80px;
+	height: 80px;
+	float: left;
+}
+
+
+.center{
+	background-color:#fff;
+	padding: 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+.right{
+	float: right;
+	width:120px;
+	background-color: #fff;
+}
+.right img{
+    display: block;
+	padding:20px;
+}
