@@ -1,0 +1,104 @@
+*{padding: 0;margin: 0;}
+
+.container{height:1040px;width:980px;margin: 30px}
+.header{
+	height:61px;
+	width:892px;
+	border-bottom:  2px solid #938e8c;
+	position: relative;
+	font-family: SimHei;
+	font-size: 12px ;
+}
+.header .head_left{
+    float: left;
+	background-color: #d45d5c;
+	
+	width:110px;
+	height: 61px;
+}
+.header span{
+	position: absolute;
+	
+	bottom:2px;
+	
+    color: #ffffff;
+}
+.header .head_right{ 
+	float: right;
+	padding-top:45px;
+	 text-align:right;
+	 color: #d45d5c;
+}
+
+.article{
+	
+    margin:40px 0;
+
+}
+.article .art1_left{
+	float: left;
+	width: 641px;
+	height:301px;
+	background: url(art1.png);
+}
+
+.article .art1_right{
+	float: left;
+	width: 203px;
+	height: 301px;
+	border-top:2px solid #cc8091;
+	margin-left:40px;
+	
+}
+.article .art1_right h2{border-bottom: 2px solid black}
+.article .art1_right h2:first-letter{	font-size:1.5em;}
+.article .art1_right h6{font-size: 12px;color:#676767;font-family: KaiTi}
+
+.art1_right span{font-size: 116px;color: #75b86b;}
+.ts{font-size: 55px;color: #cc8091;font-family: Microsoft YaHei;float: left;}
+.right_con{float: left;}
+.tt{font-size: 21px;color: #cc8091;font-family: Microsoft YaHei;margin-top:15px;}
+.ttss{font-size: 12px;color: #cc8091;font-family: Microsoft YaHei;display: block;}
+
+
+.article2{ width: 641px; position: relative;}
+.article2 p{font-size: 12px;color: #767777;font-family:SimSun}
+.what{float: left; margin: 20px; width: 180px;}
+.what span{font-weight: bold; font-size: 16px;color: #418c59;font-family: Microsoft YaHei; }
+.how{float: right;margin: 20px;width: 180px}
+.how span{font-weight: bold;  font-size: 16px;color: #cc7680;font-family: Microsoft YaHei;}
+.how h6{font-weight: normal;font-size: 12px; display: inline;color:#231815 ;opacity: 0.7}
+.how h5{font-weight: normal;font-size: 12px; display: inline;color:#cd4a48 ;opacity: 0.7}
+.when{position: absolute;top:301px; left:200px; margin: 20px; width: 180px;}
+.when span{ font-weight: bold; font-size: 16px;color: #d2994f;font-family: Microsoft YaHei;  }
+.clean{clear: both;}
+
+
+.footer{ width: 980px;margin: 30px 0;}
+.f_left{float: left; width:415px;position: relative; }
+.f_right{ float:left;width:458px; margin-left:40px;}
+.l_shang{ height: 160px; border-bottom: solid 2px black;font-weight: bold}
+.l_shang p{display: inline; font-size: 33px;color: #11456b;}
+.l_shang span{font-size: 72px; color: #f5e327;font-style: italic}
+.l_xia p{display: inline; font-size: 12px;color: #767777;font-family:SimSun }
+.l_xia img{ float:right;width: 166px;height: 288px;top:60px;}
+.r_shang{width: 458px;height: 257px;position: relative;}
+.tiao{ width:458px;height: 61px;position: absolute;bottom: 0px;color: #FFFFFF; background-color: rgba(0,0,0,0.4);
+z-index: 1;}
+.font{ position: absolute;left:40px;top:10px; border-left: 3px solid #72b16a;height:44px;width: 300px}
+.font p{font-size: 26px ; }
+.font p span{font-size: 12px ;color: #72b16a;margin-left: 10px;font: italic 12px "微软雅黑";word-spacing: 140%;}
+.r_xia{ width: 459px;height: 318px ;background-color: #dedebe;margin: 30px 0;position: relative;}
+.x_s{margin-left: 50px;padding-top: 20px}
+.x_s p{display: inline;font:italic 12px arial;}
+.x_s ul li{ list-style-type:none;list-style-image:url(tri.png) ;font-size: 16px ;color: #5a5b5b;line-height: 36px;}
+.hezi{background-color: #d45d5c;height:160px;width: 260px;bottom: 0px;position: absolute;}
+.hezi h1{ float: left; height: 86px;font:110px "微软雅黑"; margin-left: 10px;margin-top: 10px;}
+.hezi p{float: left;width: 170px;height: 86px;border-left: 2px solid #ffffff;padding: 5px;font: 12px "黑体";margin-top: 35px;}
+.hezi p span{ font:italic 21px "黑体";}
+.wenzi{ width: 190px;height: 160px;position: absolute;right: 5px;bottom: 0;font: italic 14px "宋体";line-height: 20px;color: #5a5a5b;}
+.wenzi span{font:40px "黑体";color: #d45d5c; vertical-align:top;}
+ 
+
+ .laster{width: 892px;height: 61px;border-bottom: 1px solid #938e8c;clear: both;position: relative;margin-left: 40px; vertical-align:top;}
+.laster p{font:12px "黑体";color: #d45d5c;position: absolute;right: 0;bottom: -15px;}
